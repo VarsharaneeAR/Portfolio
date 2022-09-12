@@ -1,0 +1,68 @@
+
+:root{
+    {--main-font-style: font-family: 'Noto Serif Georgian', serif;
+    --secondary-font-style:font-family: 'Noto Sans Balinese', sans-serif;}
+}
+
+.navbar-brand{
+    font-family: 'Noto Serif Georgian', serif;
+}
+.nav-link{
+    font-family:(--secondary-font-style);
+}
+.homepage{
+    display: block;
+  text-align: center;
+}
+h1,h2,h3{
+    font-family: (--main-font-style)
+}
+
+h2{
+    font-size: medium;
+    font-weight: 200
+    ;
+    padding-top: 1.em;
+    padding-bottom: 0.5em;
+}
+
+h3{
+    font-weight: 100;
+    padding-top: none;
+    padding-bottom: 1.5em;
+}
+
+#business{ 
+  margin: auto;
+  padding: 20px 20px 20px 20px
+  ;
+}
+
+#fashion{
+    margin: auto;
+    padding: 20px 20px 20px 20px
+}
+
+#coding{
+    margin: auto;
+  padding: 20px 20px 20px 20px
+}
+
+#social-media{
+    margin: auto;
+    padding: 20px 20px 20px 20px
+}
+.button{
+    padding: 1.5em;
+}
+
+.card
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.socials{
+    padding: 1.5em;
+}
+
