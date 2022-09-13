@@ -66,3 +66,43 @@ h3{
     padding: 1.5em;
 }
 
+.card-title{
+font-size: x-small;
+}
+
+
+a :link {
+    text-decoration: none;
+}
+
+a :hover {
+     text-decoration: none;
+}
+
+.about-me{
+    color: black;
+    font-family:(--secondary-font-style);
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: 1px grey solid;
+    background: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+   
+
+}
+.about-me:hover {
+    text-decoration: none;
+    background: grey;
+    color: white;
+  }
+ 
+  a :link {
+    text-decoration: none;
+  }
+
+  a :hover{
+    text-decoration: none;
+  }
+
