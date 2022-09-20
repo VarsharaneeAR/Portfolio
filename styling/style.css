@@ -39,9 +39,13 @@ h2{
 h3{
     font-weight: 100;
     padding-top: none;
-    padding-bottom: 1.5em;
+   
 }
 
+h4{
+    font-family: (--main-font-style);
+    font-weight: lighter;
+}
 p{
     font-family:(--secondary-font-style);
     color: var(--secondary-color);
@@ -85,6 +89,9 @@ p{
 font-size: x-small;
 }
 
+#about-button{
+  margin-top: 1.5em;
+}
 
 a :link {
     text-decoration: none;
@@ -94,27 +101,26 @@ a :hover {
      text-decoration: none;
 }
 
-.about-me{
+#about-me{
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: black;
     font-family:(--secondary-font-style);
-    border-radius: 15px;
-    padding: 5px 10px;
-    border: 1px grey solid;
-    background: white;
-    cursor: pointer;
-    display: inline-block;
-    margin: 10px;
+   text-align: center;
    
 
 }
-.about-me:hover {
-    text-decoration: none;
-    background: grey;
-    color: white;
-  }
+.about-me{
+    text-align: center;
+    padding-top: 70px;
+font-size: 50px;
+    padding-bottom: 0%;
+}
  
   a :link {
     text-decoration: none;
+    color: black;
   }
 
   a :hover{
@@ -123,4 +129,90 @@ a :hover {
 
 header{
     text-align: center;
+}
+
+#location{
+    font-size: 25px;
+}
+
+footer{
+   text-align:  center;
+    display: block;
+   
+}
+
+header{
+    text-align:  center;
+    display: block;
+}
+
+#skills{
+    text-align: center;
+}
+
+#pattern-image{
+    max-width: 55%;
+
+}
+
+#screenprint{
+    max-width: 15%;
+    max-height: 10%;
+}
+
+#reflection{
+ 
+    background: linear-gradient(88.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
+}
+#quote{
+   
+    text-align: center;
+    padding-top: 125px;
+}
+
+#home{
+    padding-top: 65px;
+    text-align: center;
+    padding-bottom: none
+    ;
+}
+
+.fa-envelope{
+    color: black;
+
+}
+
+.fa-linkedin{
+    color: black;
+}
+
+.fa-file-lines{
+    color: black;
+}
+#temper{
+    text-align: center;
+    font-size: x-small;
+    
+}
+
+#cert{
+    list-style: none;
+}
+
+#interests{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#frontend{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+.frontend{
+    text-align: center;
+    padding: 20px, 20px, 20px, 20px;
+    
 }
