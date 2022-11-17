@@ -1,9 +1,9 @@
 
 :root{
-    {--main-font-style: font-family: 'Noto Serif Georgian', serif;
+    --main-font-style: font-family: 'Noto Serif Georgian', serif;
     --secondary-font-style:font-family: 'Noto Sans Balinese', sans-serif;
     --primary-color:#2a2438;
-    --secondary-color:#5c5470;}
+    --secondary-color:#5c5470;
 }
 
 body{
@@ -23,7 +23,7 @@ body{
   text-align: center;
 }
 h1,h2,h3{
-    font-family: (--main-font-style)
+    font-family: (--main-font-style);
     color: var(--primary-color);
     
 }
@@ -213,6 +213,8 @@ header{
 
 .frontend{
     text-align: center;
-    padding: 20px, 20px, 20px, 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     
 }
+
